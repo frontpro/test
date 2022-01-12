@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Fiber</title>
+  </head>
+  <body>
+    <nav>
+      <h3>Fiber</h3>
+    </nav>
+    <section class="main">
+      <h1>Create your Fiber accont</h1>
+      <form class="contact" data-netlify="true">
+        <div class="contact-form">
+          <div class="userName setting">
+            <label for="userName">Your Name</label>
+            <input
+              type="text"
+              name="userName"
+              id="userName"
+              placeholder="John Doe"
+            />
+          </div>
+          <div class="email setting">
+            <label for="Email">E-mail</label>
+            <input
+              type="email"
+              name="Email"
+              id="Email"
+              placeholder="john@example.com"
+            />
+          </div>
+          <div class="password setting">
+            <label for="passWord">Password</label>
+            <input
+              type="password"
+              name="passWord"
+              id="passWord"
+              placeholder="At least 8 characters"
+            />
+            <img src="./Assets/hide password.svg" alt="hide" />
+          </div>
+          <div class="checkTerms">
+            <input type="checkbox" name="terms" id="terms" />
+            <p class="links">
+              By creating an account on Fiber, you agree to the
+              <a href="#">Terms & condetions.</a>
+            </p>
+          </div>
+          <button type="submit" class="btn">Create Fiber Account</button>
+          <p class="signIn">Already have an account? <a href="#">Sign in</a></p>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

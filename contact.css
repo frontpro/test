@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 80%;
+  margin: auto;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.794);
+}
+nav {
+  height: 10vh;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+a {
+  color: #4c13d1;
+}
+.main {
+  height: 90vh;
+}
+h1 {
+  font-size: 2.1rem;
+}
+.setting {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+.setting label {
+  margin: 0.5rem 0;
+}
+.setting input {
+  font-size: 1rem;
+  padding: 0.9rem;
+  border-radius: 0.4rem;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  color: rgba(0, 0, 0, 0.596);
+}
+.password {
+  position: relative;
+}
+.password img {
+  width: 1.5rem;
+  position: absolute;
+  top: 55%;
+  right: 0;
+  transform: translate(-55%, 0);
+}
+.checkTerms {
+  display: flex;
+  align-items: flex-start;
+}
+.checkTerms p {
+  margin-left: 10px;
+  word-spacing: 2px;
+}
+.links a {
+  font-weight: bold;
+}
+.btn {
+  background-color: #4c13d1;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  width: 100%;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #8c7fbe;
+  transition: all 1s ease-in-out;
+}
+.signIn a {
+  text-decoration: none;
+}
